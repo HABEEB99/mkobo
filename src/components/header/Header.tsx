@@ -6,6 +6,7 @@ import { BiBell } from "react-icons/bi";
 import { FaBars } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import MobileNav from "../mobile-nav/MobileNav";
+
 type HeaderProps = {};
 
 const Header: React.FC<HeaderProps> = () => {

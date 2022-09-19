@@ -24,7 +24,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({
       <Header />
       <main className="w-full h-[88vh] flex ">
         <Sidebar />
-        <section className="-z-[999] h-full w-full lg:w-[88%] px-6 py-2 overflow-y-auto overflow-x-hidden !scrollbar-thumb-blue-500 hover:!scrollbar-thumb-blue-700  !scrollbar-thin">
+        <section className=" h-full w-full lg:w-[88%] px-6 py-2 overflow-y-auto overflow-x-hidden !scrollbar-thumb-blue-500 hover:!scrollbar-thumb-blue-700  !scrollbar-thin">
           {children}
         </section>
       </main>
