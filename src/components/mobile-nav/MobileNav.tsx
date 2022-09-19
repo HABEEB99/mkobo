@@ -4,11 +4,11 @@ import { navItem } from "../../utils/NavItem";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { RiWechatFill } from "react-icons/ri";
 
-type SidebarProps = {};
+type MobileNavProps = {};
 
-const Sidebar: React.FC<SidebarProps> = () => {
+const MobileNav: React.FC<MobileNavProps> = () => {
   return (
-    <section className="h-full w-[12%] bg-gray-100 pl-4 pt-10 lg:flex flex-col space-y-8 hidden static left-0 top-0">
+    <div className="h-[80vh] w-[20rem] bg-gray-200   p-2 lg:hidden flex-col space-y-8 flex  absolute z-10 top-[13vh] right-4">
       <div className="flex flex-col space-y-2">
         {navItem.map((item, idx) => (
           <div
@@ -35,7 +35,7 @@ const Sidebar: React.FC<SidebarProps> = () => {
           <span>Talk to someone</span>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
-export default Sidebar;
+export default MobileNav;
